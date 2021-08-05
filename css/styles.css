@@ -620,7 +620,7 @@ img {
   padding: 0 1.5rem;
 }
 
-/*========== MENU ==========*/
+/*========== PRODUCT ==========*/
 .product__container {
   grid-template-columns: repeat(1, 280px);
   justify-content: center;
