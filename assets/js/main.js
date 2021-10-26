@@ -6,8 +6,14 @@ function preloadFunction() {
         preloaderContainer.style.opacity = '0'
         setTimeout(() => {
             preloaderContainer.style.display = 'none'
-        }, 500);
-    }, 2000);
+            // Animation on scroll initialize
+            AOS.init({
+                duration: 600,
+                easing: 'ease'
+            });
+
+        },500);
+    }, 2g000);
 }
 
 /*==================== SHOW MENU ====================*/
@@ -49,7 +55,7 @@ function scrollActive(){
 
     sections.forEach(current =>{
         const sectionHeight = current.offsetHeight
-        const sectionTop = current.offsetTop - 50;
+        const sectionTop = current.offsetTop -350;
         sectionId = current.getAttribute('id')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
@@ -74,22 +80,4 @@ function scrollTop(){
     if(this.scrollY >= 560) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollTop)
-
-/*==================== SCROLL REVEAL ANIMATION ====================*/
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '30px',
-    duration: 2000,
-    // reset: true
-});
-
-sr.reveal(`.home__data, .home__img, 
-            .about__data, .about__img,
-            .services__content, .product__content, .feature__img,.feature__data,
-            .app__data, .app__img,
-            .contact__data, .contact__button,
-            .footer__content`, {
-    interval: 200
-})
-
 

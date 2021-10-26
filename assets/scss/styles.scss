@@ -69,6 +69,9 @@ html{
     scroll-behavior: smooth;
 }
 
+main {
+    overflow: hidden;
+}
 
 body{
     margin: var(--header-height) 0 0 0;
@@ -359,7 +362,7 @@ img{
     background-color: var(--first-color);
     color: #FFF;
     padding: .75rem 1rem;
-    border-radius: 2.5rem; 
+    border-radius: 0.5rem; 
     transition: .3s;
     
     &:hover{
@@ -413,7 +416,7 @@ img{
     }
 }
 
-/*========== PRODUCT ==========*/
+/*========== ORDER ==========*/
 .product{
     &__container{
         grid-template-columns: repeat(1, 280px);
@@ -547,6 +550,10 @@ img{
         font-size: var(--small-font-size);
         color: var(--text-color-light);
         margin-top: 3.5rem;
+        a{
+        color: var(--text-color-light);
+
+        }
     }
 }
 
@@ -595,6 +602,9 @@ img{
     .app__data, .app__initial,
     .contact__container, .contact__initial{
         text-align: initial;
+    }
+    .contact__initial{
+        width: fit-content !important;
     }
 
     .about__img, .app__img{

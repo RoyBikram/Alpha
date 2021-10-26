@@ -8,6 +8,7 @@
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
         <!--========== CSS ==========-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="css/styles.css">
         <title>Alpha</title>
     </head>
@@ -33,13 +34,13 @@
                 <a href="#" class="nav__logo">Alpha</a>
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#feature" class="nav__link">Features</a></li>
-                        <li class="nav__item"><a href="#product" class="nav__link">Order</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">Tech</a></li>
-                        <li class="nav__item"><a href="#app" class="nav__link">App</a></li>
-                        <li class="nav__item"><a href="#services" class="nav__link">Service</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
+                        <li data-aos="fade-down" data-aos-delay="50" class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li data-aos="fade-down" data-aos-delay="150" class="nav__item"><a href="#feature" class="nav__link">Features</a></li>
+                        <li data-aos="fade-down" data-aos-delay="250" class="nav__item"><a href="#product" class="nav__link">Order</a></li>
+                        <li data-aos="fade-down" data-aos-delay="350" class="nav__item"><a href="#about" class="nav__link">Tech</a></li>
+                        <li data-aos="fade-down" data-aos-delay="450" class="nav__item"><a href="#app" class="nav__link">App</a></li>
+                        <li data-aos="fade-down" data-aos-delay="550" class="nav__item"><a href="#services" class="nav__link">Service</a></li>
+                        <li data-aos="fade-down" data-aos-delay="650" class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="nav__toggle" id="nav-toggle">
@@ -53,13 +54,13 @@
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
                     <div class="home__data">
-                        <h1 class="home__title"> <span>Mark</span> One</h1>
-                        <h2 class="home__subtitle">Try the Electrify future. <br> All electric awesome</h2>
-                        <a href="#" class="button">Know More</a>
+                        <h1 data-aos="fade-right" data-aos-delay="50" class="home__title"> <span>Mark</span> One</h1>
+                        <h2 data-aos="fade-right" data-aos-delay="200" class="home__subtitle">Try the Electrify future. <br> All electric awesome</h2>
+                        <a data-aos="fade-right" data-aos-delay="350" href="#" class="button">Know More</a>
                     </div>
                     <img src="assets/img/homeimg.svg" alt="" class="home__img">
                 </div>
-                <div class="scroll-down">
+                <div class="scroll-down" data-aos="fade-up" data-aos-delay="200">
                     <div class="scroll-container">
                         <div class="scroller"></div>
                     </div>
@@ -69,49 +70,49 @@
             <!--===== FEATURE =====-->
             <section class="feature section bd-container" id="feature">
                 <span class="section-subtitle">Features</span>
-                <h2 class="section-title">Made for You</h2>
+                <h2 data-aos="zoom-out" class="section-title">Made for You</h2>
                 <div class="feature__container">
-                    <div class="feature__data">
+                    <div data-aos="fade-right" class="feature__data">
                         <h3 class="feature__title ">First Feature</h3>
                         <p class="feature__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam voluptate eius rem a magnam, esse illo pariatur, magni, accusamus atque reiciendis. Deleniti aliquam quia magnam magni facilis quo, molestias eius?</p>
                     </div>
-                    <img src="assets/img/feature1.svg" alt="" class="feature__img">
+                    <img data-aos="fade-left" src="assets/img/feature1.svg" alt="" class="feature__img">
                 </div>
                 <div class="feature__container revarce">
-                    <div class="feature__data">
+                    <div data-aos="fade-left" class="feature__data">
                         <h3 class="feature__title ">Second Feature</h3>
                         <p class="feature__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam id sapiente sint ipsam quasi obcaecati aut enim repellat, rem in blanditiis nostrum officia recusandae labore a. Itaque in ipsam exercitationem.</p>
                     </div>
-                    <img src="assets/img/feature2.svg" alt="" class="feature__img">
+                    <img data-aos="fade-right" src="assets/img/feature2.svg" alt="" class="feature__img">
                 </div>
                 <div class="feature__container">
-                    <div class="feature__data">
+                    <div data-aos="fade-right" class="feature__data">
                         <h3 class="feature__title ">Third Feature</h3>
                         <p class="feature__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nulla, maiores alias reprehenderit perspiciatis sunt qui magni quos, accusantium doloribus temporibus, quo porro. Qui harum fugit odit quam quo! Iure.</p>
                     </div>
-                    <img src="assets/img/feature3.svg" alt="" class="feature__img">
+                    <img data-aos="fade-left" src="assets/img/feature3.svg" alt="" class="feature__img">
                 </div>
             </section>
-            <!--========== PRODUCT ==========-->
+            <!--========== ORDER ==========-->
             <section class="product section bd-container" id="product">
                 <span class="section-subtitle">Order</span>
-                <h2 class="section-title">Make It Your Own</h2>
+                <h2 data-aos="zoom-out" class="section-title">Make It Your Own</h2>
                 <div class="product__container bd-grid">
-                    <div class="product__content">
+                    <div data-aos="fade-up" data-aos-delay="200" class="product__content">
                         <img src="assets/img/sample1.svg" alt="" class="product__img">
                         <h3 class="product__name">Mark One Lite</h3>
                         <span class="product__detail">Features</span>
                         <span class="product__preci">$299.00</span>
                         <a href="#" class="button product__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
-                    <div class="product__content">
+                    <div data-aos="fade-up" data-aos-delay="50" class="product__content">
                         <img src="assets/img/sample2.svg" alt="" class="product__img">
                         <h3 class="product__name">Mark One</h3>
                         <span class="product__detail">Features</span>
                         <span class="product__preci">$349.00</span>
                         <a href="#" class="button product__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
-                    <div class="product__content">
+                    <div data-aos="fade-up" data-aos-delay="350" class="product__content">
                         <img src="assets/img/sample3.svg" alt="" class="product__img">
                         <h3 class="product__name">Mark One Pro</h3>
                         <span class="product__detail">Features</span>
@@ -120,22 +121,22 @@
                     </div>
                 </div>
             </section>
-            <!--========== ABOUT ==========-->
+            <!--========== TECHNOLOGY ==========-->
             <section class="about section bd-container" id="about">
                 <div class="about__container  bd-grid">
-                    <div class="about__data">
+                    <div data-aos="fade-left" class="about__data">
                         <span class="section-subtitle about__initial">Technology</span>
                         <h2 class="section-title about__initial">World first electric <br> bicycle </h2>
                         <p class="about__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam voluptate eius rem a magnam, esse illo pariatur, magni, accusamus atque reiciendis. Deleniti aliquam quia magnam magni facilis quo, molestias eius?</p>
                         <a href="#" class="button">Explore More</a>
                     </div>
-                    <img src="assets/img/about.svg" alt="" class="about__img">
+                    <img data-aos="fade-right" src="assets/img/about.svg" alt="" class="about__img">
                 </div>
             </section>
             <!--===== APP =======-->
             <section class="app section bd-container" id="app">
                 <div class="app__container bd-grid">
-                    <div class="app__data">
+                    <div data-aos="fade-left" class="app__data">
                         <span class="section-subtitle app__initial">App</span>
                         <h2 class="section-title app__initial">Manage everything from app</h2>
                         <p class="app__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem in minus temporibus modi impedit alias perspiciatis repellendus ut totam at.</p>
@@ -144,84 +145,26 @@
                             <a href="#"><img src="assets/img/app2.png" alt="" class="app__store"></a>
                         </div>
                     </div>
-                    <img src="assets/img/appimg.png" alt="" class="app__img">
+                    <img data-aos="fade-right" src="assets/img/appimg.png" alt="" class="app__img">
                 </div>
             </section>
             <!--========== SERVICES ==========-->
             <section class="services section bd-container" id="services">
                 <span class="section-subtitle">Services</span>
-                <h2 class="section-title">Make Life Easy</h2>
+                <h2 data-aos="zoom-out" class="section-title">Make Life Easy</h2>
                 <div class="services__container  bd-grid">
-                    <div class="services__content">
-                        <svg class="services__img" viewBox="0 0 239 169"  xmlns="http://www.w3.org/2000/svg">
-                            <path d="M13.6549 36.5642L13.6655 36.5582L13.6764 36.5528C13.8924 36.4448 14.2073 36.363 14.5639 36.2939C14.9343 36.2221 15.3977 36.1555 15.9404 36.0938C17.0267 35.9703 18.4568 35.8634 20.1491 35.7757C23.5352 35.6001 27.9943 35.5 32.9 35.5H49.5V31.5C49.5 30.4226 49.4872 29.6266 49.4304 29.0302C49.3726 28.4238 49.2743 28.0957 49.1535 27.9065C49.0552 27.7524 48.9176 27.6517 48.6253 27.5864C48.3039 27.5145 47.8599 27.5 47.2 27.5C46.3838 27.5 45.3814 27.3119 44.4372 27.0144C43.4981 26.7185 42.568 26.2992 41.9067 25.805C41.3956 25.4468 40.9535 25.0894 40.6045 24.5969C40.2514 24.0984 40.0181 23.4975 39.8593 22.6833C39.5478 21.087 39.5 18.5292 39.5 14C39.5 10.1994 39.5995 7.61787 39.855 5.82928C40.1098 4.0461 40.5301 2.96277 41.2464 2.24644C41.5084 1.98445 41.8871 1.79781 42.4197 1.64798C42.9554 1.49727 43.6948 1.37106 44.7256 1.26215C46.7893 1.04407 50.1019 0.887604 55.4645 0.775101C66.196 0.549973 85.2022 0.5 119 0.5C152.798 0.5 171.804 0.549973 182.535 0.775101C187.898 0.887604 191.211 1.04407 193.274 1.26215C194.305 1.37106 195.045 1.49727 195.58 1.64798C196.113 1.79781 196.492 1.98445 196.754 2.24644C197.47 2.96277 197.89 4.0461 198.145 5.82928C198.4 7.61787 198.5 10.1994 198.5 14C198.5 18.5292 198.452 21.087 198.141 22.6833C197.982 23.4975 197.749 24.0984 197.395 24.5969C197.047 25.0894 196.605 25.4467 196.094 25.8049C195.432 26.2991 194.502 26.7185 193.563 27.0144C192.619 27.3119 191.616 27.5 190.8 27.5C190.14 27.5 189.696 27.5145 189.375 27.5864C189.082 27.6517 188.945 27.7524 188.846 27.9065C188.726 28.0957 188.627 28.4238 188.57 29.0302C188.513 29.6266 188.5 30.4226 188.5 31.5V35.5H205.1C210.006 35.5 214.465 35.6001 217.851 35.7757C219.543 35.8634 220.973 35.9703 222.06 36.0938C222.602 36.1555 223.066 36.2221 223.436 36.2939C223.793 36.363 224.108 36.4448 224.324 36.5528L224.335 36.5582L224.345 36.5642C224.785 36.8119 225.163 37.1021 225.468 37.4977C225.772 37.8927 225.985 38.3657 226.134 38.9511C226.428 40.0973 226.5 41.7611 226.5 44.3C226.5 47.5505 226.23 49.8304 225.512 51.3061C225.145 52.0607 224.654 52.6224 224.012 52.9889C223.375 53.3525 222.632 53.5 221.8 53.5C221.656 53.5 221.619 53.5237 221.583 53.5584C221.518 53.6217 221.403 53.7949 221.286 54.2561C221.053 55.1726 220.881 56.9162 220.762 60.2056C220.525 66.7565 220.5 79.2444 220.5 103V152.419L227.817 152.7C227.817 152.7 227.817 152.7 227.818 152.7C230.81 152.8 232.784 152.95 234.014 153.238C234.627 153.382 235.117 153.572 235.459 153.855C235.832 154.163 236 154.557 236 155C236 155.343 235.763 155.553 235.574 155.663C235.383 155.775 235.127 155.857 234.825 155.925C234.212 156.064 233.246 156.181 231.802 156.282C228.903 156.484 223.974 156.631 215.844 156.737C199.577 156.95 170.449 157 119 157C67.5514 157 38.4225 156.95 22.156 156.737C14.0255 156.631 9.0967 156.484 6.19794 156.282C4.7536 156.181 3.78768 156.064 3.17479 155.925C2.87314 155.857 2.61714 155.775 2.42562 155.663C2.23713 155.553 2 155.343 2 155C2 154.556 2.16875 154.162 2.54342 153.854C2.88749 153.572 3.38073 153.381 3.9997 153.238C5.24206 152.95 7.23988 152.8 10.282 152.7C10.2826 152.7 10.2831 152.7 10.2836 152.7L17.5 152.419V103C17.5 79.2444 17.4749 66.7565 17.2378 60.2056C17.1188 56.9162 16.947 55.1726 16.7139 54.2561C16.5965 53.7949 16.4815 53.6217 16.4166 53.5584C16.381 53.5237 16.344 53.5 16.2 53.5C15.3677 53.5 14.6248 53.3525 13.988 52.9889C13.3462 52.6224 12.8547 52.0607 12.4878 51.3061C11.7703 49.8304 11.5 47.5505 11.5 44.3C11.5 41.7611 11.5724 40.0973 11.8656 38.9511C12.0153 38.3657 12.2275 37.8927 12.5322 37.4977C12.8374 37.1021 13.2146 36.8119 13.6549 36.5642ZM44.6997 13.6828L44.6997 13.683L44.9832 22H119H193.017L193.3 13.683L193.582 5.5H119H44.4175L44.6997 13.6828ZM98.7986 143.7L168.5 143.501V103V62.5H95.5H22.5V107.5V152.5H106.5H190.5V120.5V88V87.5H191H203.5H215.5V70.5V53.5H119H22.5V55.5V57.5013L97.3013 57.7L97.302 57.7L172.502 58L173 58.002V58.5V103V147.5V147.998L172.502 148L100.202 148.3L100.201 148.3C65.9551 148.4 47.8721 148.425 38.3895 148.225C33.6583 148.125 31.0343 147.969 29.6082 147.731C28.9121 147.614 28.4133 147.467 28.0996 147.233C27.9265 147.104 27.7951 146.939 27.73 146.734C27.6679 146.538 27.6815 146.354 27.7081 146.21C27.736 146.054 27.7906 145.885 27.9013 145.72C28.0121 145.556 28.1625 145.42 28.3486 145.307C28.7049 145.09 29.2293 144.933 29.9776 144.804C31.4865 144.544 34.1399 144.363 38.8103 144.225C48.1683 143.95 65.7517 143.85 98.7977 143.7L98.7986 143.7ZM119 35.5H183.5V31.5V27.5H119H54.5V31.5V35.5H119ZM118.801 48.3L221.5 48.499V44.5V40.5H119.1C90.7507 40.5 64.9769 40.575 46.2658 40.7C36.9101 40.7625 29.3213 40.8375 24.0596 40.9218C21.4283 40.964 19.3813 41.0085 17.9871 41.0548C17.2892 41.078 16.7594 41.1015 16.4032 41.1251C16.3237 41.1304 16.2544 41.1356 16.195 41.1406C16.1795 41.2127 16.1631 41.2985 16.1462 41.3987C16.1018 41.662 16.0594 41.9935 16.0227 42.3732C15.9494 43.1302 15.9003 44.0613 15.9 44.9929L15.986 48.0014L118.801 48.3H118.801ZM205.5 152.5H215.5V122.5V92.5H205.5H195.5V122.5V152.5H205.5Z" stroke="#0fbcf9"/>
-                            <path d="M62.6524 102.477L62.6528 102.476C66.9033 93.9754 70.9044 86.0732 73.9434 80.1954C75.4627 77.2569 76.7426 74.8221 77.6934 73.0708C78.1686 72.1956 78.5634 71.4878 78.8657 70.9719C79.0167 70.7142 79.1469 70.5005 79.2539 70.3361C79.3524 70.1849 79.4545 70.0385 79.5465 69.9465C80.064 69.4289 80.59 69.0505 81.163 68.9789C81.7784 68.902 82.2983 69.1912 82.7536 69.6465C82.9318 69.8247 82.9664 70.0601 82.9738 70.2083C82.9822 70.3758 82.9612 70.5659 82.9242 70.7665C82.8496 71.171 82.6919 71.7105 82.4564 72.3839C81.9835 73.7358 81.1702 75.7015 79.9813 78.3545C77.6019 83.6644 73.698 91.772 67.9476 103.323L67.9472 103.324C63.5462 112.126 59.3949 120.253 56.2685 126.256C54.7054 129.257 53.3977 131.729 52.4426 133.489C51.9653 134.368 51.5746 135.072 51.2836 135.577C51.1383 135.829 51.0157 136.035 50.9184 136.189C50.8337 136.324 50.7383 136.469 50.6536 136.554L50.6316 136.576L50.607 136.595C50.1219 136.972 49.5613 137.234 48.9865 137.035C48.4438 136.847 48.0967 136.312 47.8385 135.692L47.8315 135.675L47.8257 135.658C47.7659 135.479 47.7711 135.279 47.7888 135.111C47.808 134.929 47.8501 134.717 47.9098 134.481C48.0295 134.007 48.2319 133.39 48.5125 132.634C49.0747 131.119 49.9677 129.004 51.1942 126.282C53.6482 120.836 57.4516 112.929 62.6524 102.477Z"  stroke="#0fbcf9"/>
-                            <path d="M100.053 101.676L100.053 101.675C104.605 92.6228 108.856 84.3942 112.034 78.4275C113.622 75.4447 114.943 73.0241 115.9 71.3475C116.378 70.5102 116.768 69.8526 117.057 69.4017C117.2 69.1779 117.324 68.995 117.426 68.8641C117.476 68.8002 117.53 68.7352 117.586 68.6815C117.614 68.6551 117.654 68.6196 117.705 68.5877C117.744 68.5627 117.851 68.5 118 68.5C118.46 68.5 118.897 68.724 119.241 69.0227C119.59 69.3263 119.887 69.7441 120.067 70.2203C120.101 70.3092 120.106 70.3892 120.106 70.4315C120.107 70.4828 120.102 70.5306 120.097 70.5696C120.086 70.6476 120.065 70.7325 120.042 70.817C119.995 70.9883 119.92 71.2092 119.822 71.4702C119.627 71.995 119.329 72.7216 118.943 73.6171C118.171 75.4102 117.039 77.9055 115.661 80.8716C112.905 86.8051 109.156 94.6362 105.312 102.531C101.467 110.427 97.5256 118.389 94.3818 124.584C92.8101 127.681 91.4368 130.339 90.3744 132.327C89.8433 133.321 89.3885 134.15 89.0247 134.784C88.6672 135.407 88.3815 135.87 88.1927 136.109L88.1836 136.121L88.1737 136.132C87.7456 136.614 87.2758 136.968 86.6916 136.987C86.1268 137.006 85.6044 136.704 85.0876 136.29L85.0876 136.29L85.0834 136.287C84.7711 136.031 84.6886 135.637 84.6916 135.26C84.6947 134.872 84.7875 134.382 84.9582 133.783C85.3014 132.58 85.9984 130.805 87.1306 128.259C89.3986 123.16 93.454 114.874 100.053 101.676Z"  stroke="#0fbcf9"/>
-                            <path d="M134.814 69.8826L134.82 69.8751L134.826 69.8678C135.254 69.3862 135.724 69.0322 136.308 69.0128C136.873 68.9939 137.396 69.2961 137.912 69.7095L137.917 69.713C138.229 69.9685 138.311 70.363 138.308 70.7405C138.305 71.1284 138.212 71.618 138.042 72.2168C137.699 73.4204 137.002 75.1947 135.869 77.7407C133.601 82.8404 129.546 91.126 122.947 104.324L122.947 104.325C118.396 113.376 114.169 121.605 111.017 127.571C109.441 130.554 108.133 132.974 107.185 134.651C106.712 135.488 106.326 136.145 106.04 136.596C105.898 136.82 105.775 137.003 105.674 137.134C105.625 137.198 105.571 137.263 105.515 137.317C105.487 137.344 105.447 137.38 105.396 137.412C105.356 137.437 105.249 137.5 105.1 137.5C104.29 137.5 103.561 136.977 103.11 136.412L103.083 136.38L103.063 136.343C102.998 136.227 102.994 136.115 102.994 136.075C102.993 136.022 102.999 135.973 103.005 135.936C103.016 135.862 103.037 135.78 103.06 135.7C103.108 135.537 103.183 135.321 103.281 135.065C103.477 134.548 103.777 133.825 104.165 132.927C104.942 131.128 106.08 128.61 107.465 125.608C110.235 119.603 113.999 111.653 117.849 103.646C121.7 95.6381 125.639 87.5701 128.759 81.328C130.319 78.2073 131.675 75.5408 132.715 73.5658C133.234 72.5786 133.675 71.7613 134.024 71.1452C134.365 70.5446 134.637 70.0973 134.814 69.8826Z"  stroke="#0fbcf9"/>
-                            <rect x="0.5" y="164.5" width="238" height="4" rx="2"  stroke="#0fbcf9"/>
-                            </svg>
+                    <div data-aos="fade-up" data-aos-delay="200" class="services__content">
+                        <img src="assets/img/modern-house.png" class="services__img" alt="" srcset="">
                         <h3 class="services__title">Experience Hub</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quasi possimus ut sed qui neque similique. Ad, cumque in? Distinctio.</p>
                     </div>
-                    <div class="services__content">
-                        <svg  class="services__img" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M19.6641 0C19.4231 0 19.2178 0.171203 19.1738 0.408203L18.9531 1.58398C18.8961 1.88898 18.6546 2.11669 18.3496 2.17969C18.0656 2.23869 17.7857 2.31239 17.5137 2.40039C17.2187 2.49639 16.8973 2.42055 16.6953 2.18555L15.9199 1.2793C15.7629 1.0963 15.4981 1.05283 15.2891 1.17383L14.7109 1.50781C14.5029 1.62781 14.4083 1.88042 14.4883 2.10742L14.8848 3.23438C14.9878 3.52637 14.8931 3.84378 14.6621 4.05078C14.4471 4.24378 14.2438 4.44711 14.0508 4.66211C13.8438 4.89311 13.5264 4.98972 13.2344 4.88672L12.1055 4.48828C11.8785 4.40828 11.6278 4.50194 11.5078 4.71094L11.1719 5.29102C11.0519 5.49902 11.0973 5.76487 11.2793 5.92188L11.377 6.00586C12.56 6.02586 13.572 6.87206 13.791 8.03906L13.8516 8.35742L14.0605 8.11133C14.5195 7.57733 15.1622 7.28695 15.8262 7.25195C16.7222 5.89695 18.255 5 20 5C22.761 5 25 7.239 25 10C25 11.745 24.103 13.2779 22.748 14.1719C22.713 14.8359 22.4227 15.4795 21.8887 15.9375L21.6426 16.1465L21.9609 16.207C23.1279 16.426 23.9741 17.4381 23.9941 18.6211L24.0781 18.7188C24.2351 18.9017 24.5 18.9472 24.709 18.8262L25.2891 18.4902C25.4971 18.3702 25.5917 18.1196 25.5117 17.8926L25.1133 16.7637C25.0103 16.4717 25.1069 16.1543 25.3379 15.9473C25.5529 15.7543 25.7562 15.5509 25.9492 15.3359C26.1562 15.1049 26.4736 15.0103 26.7656 15.1133L27.8926 15.5098C28.1196 15.5898 28.3722 15.4961 28.4922 15.2871L28.8262 14.707C28.9462 14.499 28.9027 14.2351 28.7207 14.0781L27.8145 13.3008C27.5795 13.0988 27.5036 12.7774 27.5996 12.4824C27.6876 12.2104 27.7613 11.9324 27.8203 11.6484C27.8833 11.3444 28.111 11.1029 28.416 11.0449L29.5918 10.8223C29.8288 10.7813 30 10.5769 30 10.3359V9.66406C30 9.42306 29.8288 9.21783 29.5918 9.17383L28.416 8.95312C28.111 8.89612 27.8833 8.65461 27.8203 8.34961C27.7613 8.06561 27.6876 7.78567 27.5996 7.51367C27.5036 7.21867 27.5795 6.89731 27.8145 6.69531L28.7207 5.91992C28.9037 5.76292 28.9472 5.49806 28.8262 5.28906L28.4922 4.71094C28.3722 4.50294 28.1196 4.40828 27.8926 4.48828L26.7656 4.88477C26.4736 4.98777 26.1562 4.89311 25.9492 4.66211C25.7562 4.44711 25.5529 4.24378 25.3379 4.05078C25.1069 3.84378 25.0103 3.52637 25.1133 3.23438L25.5117 2.10547C25.5917 1.87847 25.4981 1.62781 25.2891 1.50781L24.709 1.17188C24.501 1.05188 24.2351 1.0973 24.0781 1.2793L23.3027 2.18555C23.1007 2.42055 22.7794 2.49639 22.4844 2.40039C22.2124 2.31239 21.9324 2.23869 21.6484 2.17969C21.3444 2.11669 21.1029 1.88703 21.0449 1.58203L20.8242 0.40625C20.7822 0.17025 20.5769 0 20.3359 0H19.6641ZM10.6641 8C10.4231 8 10.2178 8.17025 10.1738 8.40625L9.98828 9.39453C9.91128 9.80553 9.58383 10.1084 9.17383 10.1914C8.83283 10.2604 8.49788 10.3481 8.17188 10.4551C7.77588 10.5851 7.34131 10.4879 7.07031 10.1719L6.41992 9.41211C6.26292 9.23011 5.99706 9.18664 5.78906 9.30664L5.21094 9.64062C5.00194 9.76062 4.90828 10.0132 4.98828 10.2402L5.32422 11.1914C5.46222 11.5854 5.33053 12.0091 5.01953 12.2871C4.76253 12.5171 4.51806 12.7606 4.28906 13.0176C4.01106 13.3286 3.58736 13.4603 3.19336 13.3223L2.24023 12.9883C2.01323 12.9083 1.76258 13.0029 1.64258 13.2109L1.30664 13.7891C1.18564 13.9981 1.23106 14.2629 1.41406 14.4199L2.17383 15.0703C2.48983 15.3413 2.58703 15.7759 2.45703 16.1719C2.35003 16.4979 2.26236 16.8328 2.19336 17.1738C2.11036 17.5838 1.80748 17.9113 1.39648 17.9883L0.408203 18.1738C0.171203 18.2178 0 18.4231 0 18.6641V19.3359C0 19.5769 0.17025 19.7822 0.40625 19.8262L1.39453 20.0117C1.80553 20.0887 2.10841 20.4162 2.19141 20.8262C2.26041 21.1682 2.34808 21.5021 2.45508 21.8281C2.58508 22.2241 2.48788 22.6587 2.17188 22.9297L1.41211 23.5801C1.23011 23.7371 1.18664 24.0029 1.30664 24.2109L1.64062 24.7891C1.76062 24.9981 2.01323 25.0917 2.24023 25.0117L3.19141 24.6758C3.58541 24.5378 4.00911 24.6695 4.28711 24.9805C4.51711 25.2375 4.76058 25.4819 5.01758 25.7109C5.32858 25.9889 5.46027 26.4126 5.32227 26.8066L4.98828 27.7598C4.90828 27.9868 5.00294 28.2374 5.21094 28.3574L5.78906 28.6934C5.99806 28.8144 6.26292 28.7689 6.41992 28.5859L7.07031 27.8262C7.34131 27.5102 7.77588 27.413 8.17188 27.543C8.49788 27.65 8.83283 27.7376 9.17383 27.8066C9.58383 27.8896 9.91128 28.1925 9.98828 28.6035L10.1738 29.5918C10.2178 29.8288 10.4231 30 10.6641 30H11.3359C11.5769 30 11.7822 29.8287 11.8242 29.5938L12.0098 28.6055C12.0868 28.1945 12.4142 27.8916 12.8242 27.8086C13.1662 27.7396 13.5002 27.6519 13.8262 27.5449C14.2222 27.4149 14.6567 27.5121 14.9277 27.8281L15.5781 28.5879C15.7351 28.7699 15.999 28.8153 16.207 28.6953L16.7871 28.3594C16.9961 28.2394 17.0898 27.9887 17.0098 27.7617L16.6758 26.8086C16.5378 26.4146 16.6695 25.9909 16.9805 25.7129C17.2375 25.4829 17.4819 25.2394 17.7109 24.9824C17.9889 24.6714 18.4136 24.5397 18.8066 24.6777L19.7598 25.0117C19.9868 25.0917 20.2374 24.9971 20.3574 24.7891L20.6934 24.2109C20.8144 24.0019 20.7689 23.7371 20.5859 23.5801L19.8262 22.9297C19.5102 22.6587 19.413 22.2241 19.543 21.8281C19.65 21.5021 19.7376 21.1672 19.8066 20.8262C19.8896 20.4162 20.1925 20.0887 20.6035 20.0117L21.5918 19.8262C21.8288 19.7822 22 19.5769 22 19.3359V18.6641C22 18.4231 21.8287 18.2188 21.5938 18.1758L20.6055 17.9902C20.1945 17.9132 19.8916 17.5838 19.8086 17.1738C19.7396 16.8328 19.6519 16.4979 19.5449 16.1719C19.4149 15.7759 19.5121 15.3433 19.8281 15.0723L20.5879 14.4219C20.7699 14.2649 20.8153 13.999 20.6953 13.791L20.3594 13.2109C20.2394 13.0019 19.9887 12.9083 19.7617 12.9883L18.8086 13.3242C18.4146 13.4622 17.9909 13.3305 17.7129 13.0195C17.4829 12.7625 17.2394 12.5181 16.9824 12.2891C16.6714 12.0111 16.5397 11.5874 16.6777 11.1934L17.0117 10.2402C17.0917 10.0132 16.9971 9.76258 16.7891 9.64258L16.2109 9.30664C16.0019 9.18564 15.7371 9.23106 15.5801 9.41406L14.9297 10.1738C14.6587 10.4898 14.2241 10.587 13.8281 10.457C13.5021 10.35 13.1672 10.2624 12.8262 10.1934C12.4162 10.1104 12.0887 9.80748 12.0117 9.39648L11.8262 8.4082C11.7822 8.1712 11.5769 8 11.3359 8H10.6641ZM20 9C19.7348 9 19.4804 9.10536 19.2929 9.29289C19.1054 9.48043 19 9.73478 19 10C19 10.2652 19.1054 10.5196 19.2929 10.7071C19.4804 10.8946 19.7348 11 20 11C20.2652 11 20.5196 10.8946 20.7071 10.7071C20.8946 10.5196 21 10.2652 21 10C21 9.73478 20.8946 9.48043 20.7071 9.29289C20.5196 9.10536 20.2652 9 20 9ZM11 13C14.314 13 17 15.686 17 19C17 22.314 14.314 25 11 25C7.686 25 5 22.314 5 19C5 15.686 7.686 13 11 13ZM11 17C9.895 17 9 17.895 9 19C9 20.105 9.895 21 11 21C12.105 21 13 20.105 13 19C13 17.895 12.105 17 11 17Z"/>
-                            </svg>
+                    <div data-aos="fade-up" data-aos-delay="50" class="services__content">
+                        <img src="assets/img/customize.png" class="services__img" alt="" srcset="">
                         <h3 class="services__title">Customisable</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, pariatur. Hic similique exercitationem soluta culpa nobis assumenda quos</p>
                     </div>
-                    <div class="services__content">
-                        <svg class="services__img" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0)">
-                            <path d="M19.1978 49.6016C17.4308 49.6016 15.9981 51.0342 15.9981 52.8012C15.9981 54.5682 17.4308 
-                            56.0008 19.1978 56.0008C20.9648 56.0008 22.3974 54.5682 22.3974 52.8012C22.3974 51.0342 20.9648 
-                            49.6016 19.1978 49.6016ZM19.1978 53.8677C18.6088 53.8677 18.1312 53.3902 18.1312 52.8012C18.1312 
-                            52.2122 18.6088 51.7347 19.1978 51.7347C19.7868 51.7347 20.2643 52.2122 20.2643 52.8012C20.2643 
-                            53.3902 19.7868 53.8677 19.1978 53.8677Z"/>
-                            <path d="M50.1275 49.6016C48.3605 49.6016 46.9279 51.0342 46.9279 52.8012C46.9279 54.5682 48.3605 
-                            56.0008 50.1275 56.0008C51.8945 56.0008 53.3271 54.5682 53.3271 52.8012C53.3271 51.0342 51.8945 
-                            49.6016 50.1275 49.6016ZM50.1275 53.8677C49.5385 53.8677 49.0609 53.3902 49.0609 52.8012C49.0609 
-                            52.2122 49.5385 51.7347 50.1275 51.7347C50.7165 51.7347 51.194 52.2122 51.194 52.8012C51.194 
-                            53.3902 50.7165 53.8677 50.1275 53.8677Z"/>
-                            <path d="M3.19962 21.8715H5.3327V24.0045H3.19962V21.8715Z"/>
-                            <path d="M0 26.1377H2.13308V28.2708H0V26.1377Z"/>
-                            <path d="M52.2606 11.2061H58.6598V13.3391H52.2606V11.2061Z"/>
-                            <path d="M47.9944 11.2061H50.1275V13.3391H47.9944V11.2061Z"/>
-                            <path d="M34.1294 4.80676H44.7948V6.93985H34.1294V4.80676Z"/>
-                            <path d="M29.8632 4.80676H31.9963V6.93985H29.8632V4.80676Z"/>
-                            <path d="M63.9925 59.2005V57.0674H54.8842C55.7935 56.0607 56.3575 54.7906 56.495 53.4412L63.4593 
-                            49.461C63.5087 49.4266 63.5556 49.3886 63.5988 49.3469C63.6363 49.3214 63.6723 49.2928 63.7056 
-                            49.2626C63.7858 49.1777 63.8514 49.0798 63.8998 48.9735C63.905 48.9636 63.9123 48.9574 63.917 
-                            48.948C63.9655 48.8272 63.9915 48.6986 63.9936 48.5684C63.9936 48.5564 63.9998 48.547 63.9998 
-                            48.535V38.9362C63.9951 38.9049 63.9889 38.8742 63.9806 38.8435C63.9821 38.8159 63.9821 38.7877 
-                            63.9806 38.7601L61.8475 25.9616C61.8428 25.946 61.8371 25.9299 61.8308 25.9148C61.8308 25.9033 
-                            61.8308 25.8903 61.8308 25.8788L60.7643 21.6127C60.645 21.1367 60.2169 20.8034 59.7264 20.8049H46.7893C46.6446 
-                            20.2852 46.3696 19.8103 45.9905 19.4259L38.708 12.1435C38.1096 11.5414 37.2951 11.204 36.4457 
-                            11.2061H10.6654C10.0764 11.2061 9.59888 11.6836 9.59888 12.2726V16.5388H0V18.6719H9.59888V21.8715H7.4658V24.0046H9.59888V26.1377H4.26617V28.2707H9.59888V37.8696C9.00989 
-                            37.8696 8.53234 38.3472 8.53234 38.9362V48.535C8.53234 48.5574 8.54432 48.5767 8.54536 48.6001C8.55161 
-                            48.6965 8.57088 48.7918 8.60264 48.8829C8.61254 48.9168 8.62451 48.9501 8.63805 48.9829C8.68805 49.0949 
-                            8.75679 49.1969 8.84168 49.285L12.8178 53.2611C12.9198 54.6749 13.4911 56.0149 14.441 57.0674H0V59.2005H63.9925ZM44.1016 50.6681H25.2236C25.0929 
-                            50.2984 24.9278 49.9411 24.731 49.6016H44.5943C44.3974 49.9411 44.2323 50.2984 44.1016 50.6681ZM25.597 
-                            52.8012H43.7282C43.7288 54.3776 44.3141 55.8977 45.3708 57.0674H23.9545C25.0111 55.8977 25.5965 54.3776 
-                            25.597 52.8012ZM45.8613 52.8012C45.8613 50.4452 47.7715 48.535 50.1275 48.535C52.4835 48.535 54.3937 
-                            50.4452 54.3937 52.8012C54.3937 55.1572 52.4835 57.0674 50.1275 57.0674C47.7715 57.0674 45.8613 55.1572 45.8613 
-                            52.8012ZM56.2898 51.0946C56.145 50.5723 55.9336 50.0703 55.6607 49.6016H58.9093L56.2898 51.0946ZM61.6662 
-                            37.8696H51.194V27.2042H59.8894L61.6662 37.8696ZM59.4269 25.0711H50.1275C49.5385 25.0711 49.0609 25.5487 
-                            49.0609 26.1377V38.9362C49.0609 39.5252 49.5385 40.0027 50.1275 40.0027H61.8595V42.1358H58.6598V44.2689H61.8595V47.4685H53.6578C51.519 
-                            46.0463 48.736 46.0463 46.5972 47.4685H22.7281C20.5893 46.0463 17.8063 46.0463 15.6674 
-                            47.4685H10.6654V43.2023H14.9316V41.0692H10.6654V40.0027H45.8613C46.4503 40.0027 46.9279 
-                            39.5252 46.9279 38.9362V22.938H58.8937L59.4269 25.0711ZM11.732 28.2707H20.2643V26.1377H11.732V24.0046H21.3308V21.8715H11.732V18.6719H17.0647V16.5388H11.732V13.3391H36.4457C36.7285 
-                            13.3402 36.9993 13.4527 37.1998 13.6516L44.4823 20.9341C44.6828 21.1341 44.7948 21.4059 44.7948 21.6892V37.8696H11.732V28.2707ZM13.6646 
-                            49.6016C13.4766 49.9255 13.3177 50.2661 13.1901 50.6181L12.1736 49.6016H13.6646ZM14.9316 
-                            52.8012C14.9316 50.4452 16.8418 48.535 19.1978 48.535C21.5537 48.535 23.4639 50.4452 23.4639 
-                            52.8012C23.4639 55.1572 21.5537 57.0674 19.1978 57.0674C16.8418 57.0674 14.9316 55.1572 14.9316 52.8012Z"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0">
-                                <rect width="64" height="64" fill="white"/>
-                                </clipPath>
-                                </defs>
-                        </svg>
+                    <div data-aos="fade-up" data-aos-delay="350" class="services__content">
+                        <img src="assets/img/delivery-truck.png" class="services__img" alt="" srcset="">
                         <h3 class="services__title">Delivery</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus aliquid accusamus. Soluta ducimus quo veniam obcaecati</p>
                     </div>
@@ -233,10 +176,10 @@
                 <div class="contact__container bd-grid">
                     <div class="contact__data">
                         <span class="section-subtitle contact__initial">Let's talk</span>
-                        <h2 class="section-title contact__initial">Contact us</h2>
-                        <p class="contact__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut similique assumenda voluptas perferendis magnam, soluta, natus commodi quidem sed .</p>
+                        <h2 data-aos="zoom-out" class="section-title contact__initial">Contact us</h2>
+                        <p data-aos="fade-up" class="contact__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut similique assumenda voluptas perferendis magnam, soluta, natus commodi quidem sed .</p>
                     </div>
-                    <div class="contact__button">
+                    <div data-aos="fade-up" data-aos-delay="300" class="contact__button">
                         <a href="#" class="button">Let's talk</a>
                     </div>
                 </div>
@@ -245,7 +188,7 @@
         <!--========== FOOTER ==========-->
         <footer class="footer section bd-container">
             <div class="footer__container bd-grid">
-                <div class="footer__content">
+                <div data-aos="fade-right" data-aos-delay="50" class="footer__content">
                     <a href="#" class="footer__logo">Alpha</a>
                     <span class="footer__description">Make Electrify Future</span>
                     <div>
@@ -254,7 +197,7 @@
                         <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
                     </div>
                 </div>
-                <div class="footer__content">
+                <div data-aos="fade-right" data-aos-delay="200" class="footer__content">
                     <h3 class="footer__title">Information</h3>
                     <ul>
                         <li><a href="#" class="footer__link">Event</a></li>
@@ -263,7 +206,7 @@
                         <li><a href="#" class="footer__link">Terms of services</a></li>
                     </ul>
                 </div>
-                <div class="footer__content">
+                <div data-aos="fade-right" data-aos-delay="350" class="footer__content">
                     <h3 class="footer__title">Adress</h3>
                     <ul>
                         <li>Lhtg - Asdf</li>
@@ -272,10 +215,10 @@
                     </ul>
                 </div>
             </div>
-            <p class="footer__copy">&#169; 2021 Alpha. All right reserved</p>
+            <p class="footer__copy">Made By Bikram, <a href="https://protofio.netlify.app" target="_blank">Know More</a></p>
         </footer>
-        <!--========== SCROLL REVEAL ==========-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--========== ANIMATION ON SCROLL ==========-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
     </body>
